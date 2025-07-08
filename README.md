@@ -1,16 +1,20 @@
-# 🇮🇳 India Census Workforce Analysis
+# 🇮🇳 Census 2011 Workforce Analysis
 
-This project uses real 2011 Indian Census data to analyze workforce patterns such as:
-- Marginal Workers (Male/Female)
-- Non-Working Population (Male/Female)
+Analyzes marginal and non-working population by gender using real census data.
 
-## 🗂 Files
+## 📂 Files
+- `workforce_data.xlsx`: Original Census Excel File
+- `workforce_analysis.py`: Main analysis script
+- `output_visualizations/`: Folder with generated charts
 
-- `workforce_analysis.py` – Python script for analysis (in progress)
-- `datasetcensus.xlsx` – Original dataset used
-- `requirements.txt` – Required Python libraries
+## 📊 Visualizations
+- Total non-working population (M vs F)
+- Distribution of non-working population
 
-## ⚙️ To Run (after fixes)
+## ▶️ How to Run
+
 ```bash
 pip install -r requirements.txt
 python workforce_analysis.py
+
+
